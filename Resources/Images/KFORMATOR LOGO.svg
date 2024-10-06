@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="151mm"
+   height="48mm"
+   viewBox="0 0 151 48"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="KFORMATOR LOGO.svg"
+   inkscape:export-filename="KFORMATOR LOGO.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.90332492"
+     inkscape:cx="278.96939"
+     inkscape:cy="93.543307"
+     inkscape:window-width="1358"
+     inkscape:window-height="705"
+     inkscape:window-x="4"
+     inkscape:window-y="4"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.0806px;font-family:'Lohit Telugu';-inkscape-font-specification:'Lohit Telugu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#191919;stroke-width:1.44795;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       x="2.6482098"
+       y="41.902328"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:54.0806px;font-family:'Lohit Telugu';-inkscape-font-specification:'Lohit Telugu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#191919;stroke-width:1.44795;stroke-dasharray:none;stroke-opacity:1"
+         x="2.6482098"
+         y="41.902328">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.737px;font-family:'Lohit Telugu';-inkscape-font-specification:'Lohit Telugu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#191919;stroke-width:4.10473;stroke-linecap:round;stroke-linejoin:round"
+       x="31.479811"
+       y="28.840883"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.737px;font-family:'Lohit Telugu';-inkscape-font-specification:'Lohit Telugu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:4.10473"
+         x="31.479811"
+         y="28.840883">formator</tspan></text>
+    <path
+       style="fill:none;stroke:#191919;stroke-width:1.44795;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 34.529259,42.358641 V 35.90103 c 0,0 -0.184493,-1.871856 1.147454,-3.290706 1.331947,-1.418851 4.05213,-1.167844 4.05213,-1.167844 H 142.40341"
+       id="path2"
+       sodipodi:nodetypes="cczcc" />
+    <path
+       style="fill:none;stroke:#191919;stroke-width:0.992;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 37.827312,34.413706 3.642709,3.642706 -4.4143,4.4143"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#191919;stroke-width:0.992;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.963883,42.39806 h 5.310388"
+       id="path4" />
+  </g>
+</svg>
