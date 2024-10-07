@@ -11,6 +11,8 @@ class Core:
         app = customtkinter.CTk()
         app.geometry('1000x600')
 
+        self.generators_list = []
+
         general_frame = customtkinter.CTkFrame(app)
         general_frame.pack(padx=2, pady=2, fill='both', expand=True)
 
@@ -36,14 +38,12 @@ class Core:
         open_generators_list_frame = customtkinter.CTkScrollableFrame(sidebar, corner_radius=0)
         open_generators_list_frame.pack(padx=5, pady=5, fill='both', expand=True)
 
-        self.welcome = Welcome(general_content_frame)
+        self.welcome = Welcome(general_content_frame, core=self)
         self.welcome.set_list_container(open_generators_list_frame)
 
         self.generator = Generator(general_content_frame)
 
         self.show_welcome()
-
-        FloatingFrame(general_frame)
 
         app.mainloop()
         pass
@@ -59,8 +59,7 @@ class Core:
         pass
 
     def unpack_all_modules(self):
-        self.generator.unpack()
+        for generator in self.generators_list:
+            generator.unpack()
         self.welcome.unpack()
         pass
-
-
