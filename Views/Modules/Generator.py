@@ -24,6 +24,18 @@ class Generator:
                                              command=lambda: self.show_asset_menu())
         add_button.pack(padx=2, pady=2, side=tkinter.LEFT)
 
+        general_editor_frame = customtkinter.CTkFrame(self.general_frame,
+                                                      border_width=2,
+                                                      border_color=('black', 'white')
+                                                      )
+        general_editor_frame.pack(padx=5, pady=5, fill='both', expand=True, side=tkinter.LEFT)
+
+        general_inspector_frame = customtkinter.CTkFrame(self.general_frame,
+                                                         border_width=2,
+                                                         border_color=('black', 'white')
+                                                         )
+        general_inspector_frame.pack(padx=5, pady=5, fill='y', side=tkinter.RIGHT)
+
         self.asset_menu = FloatingFrame(self.general_frame, y_padding=45,
                                         x_padding=5,
                                         direction='up_left',
@@ -31,12 +43,15 @@ class Generator:
                                         border_color=('black', 'white')
                                         )
 
-        asset_buttons_frame = customtkinter.CTkFrame(self.asset_menu.get_container(),
+        align_asset_components_frame = customtkinter.CTkFrame(self.asset_menu.get_container(), fg_color='transparent')
+        align_asset_components_frame.pack(padx=3, pady=3, fill='both', expand=True)
+
+        asset_buttons_frame = customtkinter.CTkFrame(align_asset_components_frame,
                                                      border_width=2,
                                                      border_color=('black', 'white'))
         asset_buttons_frame.pack(padx=5, pady=5, fill='y', side=tkinter.LEFT, expand=True)
 
-        asset_example_frame = customtkinter.CTkFrame(self.asset_menu.get_container())
+        asset_example_frame = customtkinter.CTkFrame(align_asset_components_frame)
         asset_example_frame.pack(padx=5, pady=5, fill='both', side=tkinter.RIGHT, expand=True)
 
         code_list_button = customtkinter.CTkButton(asset_buttons_frame, text='[ ]',
@@ -68,6 +83,16 @@ class Generator:
                                                         hover_color='gray'
                                                         )
         code_list_loop_button.pack(padx=5, pady=5)
+
+        asset_add_button = customtkinter.CTkButton(self.asset_menu.get_container(), text='Agregar',
+                                                   border_width=2,
+                                                   corner_radius=2,
+                                                   fg_color=('#282828', '#bebebe'),
+                                                   border_color=('#282828', '#bebebe'),
+                                                   hover_color=('#616161', '#cacaca'),
+                                                   )
+
+        asset_add_button.pack(padx=5, pady=5, fill='x', expand=True)
 
         self.default_info_frame = customtkinter.CTkFrame(asset_example_frame)
         self.default_info_frame.pack(padx=2, pady=2, fill='both', expand=True)

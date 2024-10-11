@@ -51,7 +51,7 @@ class Welcome:
                                                        )
         new_generator_button.pack(padx=2, pady=2, side=tkinter.LEFT)
 
-        load_generator_button = customtkinter.CTkButton(buttons_frame,  text='Cargar desde un archivo',
+        load_generator_button = customtkinter.CTkButton(buttons_frame, text='Cargar desde un archivo',
                                                         border_width=2,
                                                         corner_radius=0,
                                                         fg_color=('#282828', '#bebebe'),
@@ -81,11 +81,12 @@ class Welcome:
         self.general_frame.pack_forget()
 
     def make_new_generator(self):
+        self.hide_create_window()
         generator = Generator(self.master)
-        generator_button = GeneratorTab(self.generators_list_container,
-                                        name=self.create_input.get(),
-                                        core=self.core,
-                                        generator_class=generator)
+        GeneratorTab(self.generators_list_container,
+                     name=self.create_input.get(),
+                     core=self.core,
+                     generator_class=generator)
 
         pass
 
@@ -117,7 +118,7 @@ class Welcome:
         creation_label.pack(padx=5, pady=5, fill='x')
 
         self.create_input = customtkinter.CTkEntry(self.cw_content, corner_radius=2, border_color=('black', 'white'))
-        self.create_input .pack(padx=5, pady=5, fill='x')
+        self.create_input.pack(padx=5, pady=5, fill='x')
 
         create_button = customtkinter.CTkButton(self.cw_content, text='CREAR',
                                                 border_width=2,
