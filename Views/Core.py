@@ -10,12 +10,12 @@ class Core:
     def __init__(self):
         app = customtkinter.CTk()
         app.geometry('1000x600')
-
+        app.wait_visibility(app)
+        app.wm_attributes('-alpha', 0.5)
         self.generators_list = []
 
         general_frame = customtkinter.CTkFrame(app)
         general_frame.pack(padx=2, pady=2, fill='both', expand=True)
-
         sidebar = customtkinter.CTkFrame(general_frame)
         sidebar.pack(side=tkinter.LEFT, padx=2, pady=2, fill='y')
 
